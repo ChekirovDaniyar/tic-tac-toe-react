@@ -1,0 +1,20 @@
+.App {
+  text-align: center;
+}
+.content{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 70%;
+  margin-left: 15%;
+  grid-gap: 5px;
+}
+.game-btn button{
+  width: 100%;
+  height: 200px;
+  background-color: rgb(26, 226, 103);
+  color: white;
+  font-size: 100px;
+}
+.reset-btn{
+  margin-top: 25px;
+}
